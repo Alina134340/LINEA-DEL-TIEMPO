@@ -1,0 +1,37 @@
+body{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.clase{
+    color: rgb(255, 255, 255);
+}
+
+#identificador{
+    font-weight: bold;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: rgb(18, 186, 186);
+    }
+}
